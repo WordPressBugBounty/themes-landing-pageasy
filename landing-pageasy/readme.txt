@@ -60,7 +60,7 @@ All images are CC0/GPL compatible.
 	* (C) 2012-2018 Topbestviral, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * Based on Newspaperly https://wordpress.org/themes/newspaperly/
 	* (C) ThemeEverest, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
-* Based on Minimalistblogger https://wordpress.org/themes/minimalistblogger/
+* Based on minimalistblogger https://wordpress.org/themes/minimalistblogger/
 	* (C) ThemeEverest, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * Based on personalblogily https://wordpress.org/themes/personalblogily/
 	* (C) ThemeEverest, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
