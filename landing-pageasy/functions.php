@@ -476,6 +476,25 @@ function landing_pageasy_fonts_url() {
   }
   add_action( 'wp_enqueue_scripts', 'landing_pageasy_scripts_styles' );
 
+
+/**
+ * Fix editor font after WP 7.0.
+ */
+function landing_pageasy_editor_font_fix() {
+  wp_add_inline_style(
+    'theme-slug-fonts',
+    '
+    body,
+    .editor-styles-wrapper {
+      font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    '
+  );
+}
+add_action( 'enqueue_block_assets', 'landing_pageasy_scripts_styles' );
+add_action( 'enqueue_block_assets', 'landing_pageasy_editor_font_fix', 20 );
+
+
 /**
  * WP Mega Menu Plugin Support
  */
